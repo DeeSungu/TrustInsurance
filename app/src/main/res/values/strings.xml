@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">TrustInsurance</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Open">Open</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings1">Settings1</string>
+    <string name="action_settings2">Settings2</string>
+    <string name="action_settings3">Settings3</string>
+    <string name="action_settings4">Settings4</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="password">Password</string>
+    <string name="email_id">Email</string>
+    <string name="login">login</string>
+    <string name="newaccount">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">register</string>
+    <string name="firstcap_login">Sign In</string>
+    <string name="btn_register">Sign Up</string>
+    <string name="or">OR</string>
+    <string name="show_password">Show Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_text">dummy_Text</string>
+
+    <string name="type_a_message">Type a message</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="mr0kaushik">©mr0kaushik</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="clicking">You will get an email on clicking the RESET button.</string>
+    <string name="reset">Reset</string>
+    <string name="enter_your_e_mail_id">Enter Your E-Mail </string>
+    <string name="search_user">Search by ID/Passport/driving license...</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="chatting_app">Chatting App</string>
+    <string name="name">Name</string>
+    <string name="about">Phone</string>
+
+
+    <string name="swipe_left_for_register">Swipe Left to Register</string>
+
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right to Login</string>
+
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="transition_name_toolbar">transition_name_toolbar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <array name="photographer">
+        <item>Select</item>
+        <item>Martin</item>
+        <item>Rodger</item>
+
+    </array>
+
+    <array name="editor">
+        <item>Select</item>
+        <item>Martin</item>
+        <item>Rodger</item>
+
+    </array>
+
+    <string-array name="time">
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+        <item>09:00-17:00</item>
+    </string-array>
+
+</resources>

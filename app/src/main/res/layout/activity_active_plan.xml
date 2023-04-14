@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/btn_filter"
+            android:drawableLeft="@drawable/places_ic_search"
+            android:focusable="auto"
+            android:visibility="gone"
+            android:gravity="center_horizontal"
+            android:hint="Search by name "
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_marginTop="15sp"
+            android:layout_below="@+id/filter"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/stores_item"
+            android:id="@+id/recyclerView"/>
+
+        <ProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            android:text="You are not subscribed to any Plan"
+            android:textSize="24sp"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

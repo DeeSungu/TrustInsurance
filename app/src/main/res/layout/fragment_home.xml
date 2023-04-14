@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_margin="16dp"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Health Plans"
+           android:layout_marginBottom="20dp"
+           android:textColor="@color/colorPrimary"
+           android:textSize="30dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:gravity="center_horizontal"
+           android:fontFamily="@font/arima_madurai"
+           android:textColor="@color/black"
+           android:text="You can never be too sure about what lies ahead, especially when it comes to your health or to the well-being of your loved ones. In today’s age advancements in medical and health science are occurring at an unprecedented pace making possible what once was only a dream. This however has come at a cost as medical expenses are also on the rise making vital procedures and even general care at a reputable hospital unaffordable for the general population. In order to counter this, Trust Insurance Life Insurance brings you affordable and essential health plans that enable you to receive top of the line health care without having to worry about financing it."
+           android:layout_marginBottom="20dp"
+           android:textSize="12sp"/>
+
+
+
+       <androidx.core.widget.NestedScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:padding="10dp"
+               android:background="#fcfcfc"
+               android:gravity="center"
+               android:id="@+id/linearLayoutHead">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:clipToPadding="false"
+                   android:orientation="vertical"
+                   android:layout_marginBottom="30dp">
+
+                   <LinearLayout
+
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:clipToPadding="false"
+                       android:gravity="center"
+                       android:orientation="horizontal">
+
+                       <androidx.cardview.widget.CardView
+                           android:id="@+id/bronze"
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:foreground="?android:selectableItemBackground"
+                           android:clickable="true"
+                           android:layout_margin="10dp">
+
+                           <LinearLayout
+                               android:id="@+id/security"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:orientation="horizontal"
+                               android:gravity="left">
+
+                               <ImageView
+                                   android:layout_width="100dp"
+                                   android:layout_height="100dp"
+                                   android:background="@drawable/bronze"
+                                   android:padding="15dp" />
+
+                               <TextView
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:text="Bronze"
+                                   android:textSize="18sp"
+                                   android:layout_marginLeft="20dp"
+                                   android:drawablePadding="10dp"
+                                   android:drawableTint="@color/colorPrimary"
+                                   android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                                   android:gravity="center_vertical"
+                                   android:layout_gravity="center_vertical"
+                                   android:textStyle="bold" />
+
+                           </LinearLayout>
+
+                       </androidx.cardview.widget.CardView>
+
+                   </LinearLayout>
+
+
+                   <androidx.cardview.widget.CardView
+                       android:id="@+id/silver"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:foreground="?android:selectableItemBackground"
+                       android:clickable="true"
+                       android:layout_margin="10dp">
+
+                       <LinearLayout
+
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal"
+                           android:gravity="left">
+
+                           <ImageView
+                               android:layout_width="100dp"
+                               android:layout_height="100dp"
+                               android:background="@drawable/silver"
+                               android:padding="15dp" />
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:text="Silver "
+                               android:textSize="18sp"
+                               android:layout_marginLeft="20dp"
+                               android:drawablePadding="10dp"
+                               android:drawableTint="@color/colorPrimary"
+                               android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                               android:gravity="center_vertical"
+                               android:layout_gravity="center_vertical"
+                               android:textStyle="bold" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+                   <androidx.cardview.widget.CardView
+                       android:id="@+id/gold"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:foreground="?android:selectableItemBackground"
+                       android:clickable="true"
+                       android:layout_margin="10dp">
+
+                       <LinearLayout
+
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal"
+                           android:gravity="left">
+
+                           <ImageView
+                               android:layout_width="100dp"
+                               android:layout_height="100dp"
+                               android:background="@drawable/gold"
+                               android:padding="15dp" />
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:text="Gold "
+                               android:textSize="18sp"
+                               android:layout_marginLeft="20dp"
+                               android:drawablePadding="10dp"
+                               android:drawableTint="@color/colorPrimary"
+                               android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                               android:gravity="center_vertical"
+                               android:layout_gravity="center_vertical"
+                               android:textStyle="bold" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+                   <androidx.cardview.widget.CardView
+                       android:id="@+id/platinum"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:foreground="?android:selectableItemBackground"
+                       android:clickable="true"
+                       android:layout_margin="10dp">
+
+                       <LinearLayout
+
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent"
+                           android:orientation="horizontal"
+                           android:gravity="left">
+
+                           <ImageView
+                               android:layout_width="100dp"
+                               android:layout_height="100dp"
+                               android:background="@drawable/platinum"
+                               android:padding="15dp" />
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"
+                               android:text="Platinum "
+                               android:textSize="18sp"
+                               android:layout_marginLeft="20dp"
+                               android:drawablePadding="10dp"
+                               android:drawableTint="@color/colorPrimary"
+                               android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+                               android:gravity="center_vertical"
+                               android:layout_gravity="center_vertical"
+                               android:textStyle="bold" />
+
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+       </androidx.core.widget.NestedScrollView>
+   </LinearLayout>
+
+</LinearLayout>

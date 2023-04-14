@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/users"
+        android:icon="@drawable/profileicon"
+        android:iconTint="@color/white"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/subscribe"
+        android:icon="@drawable/handshake"
+        android:iconTint="@color/white"
+        android:title="Subscribers" />
+    <item
+        android:id="@+id/payment"
+        android:icon="@drawable/ic_baseline_payments_24"
+        android:iconTint="@color/white"
+        android:title="Payments" />
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:iconTint="@color/white"
+        android:visible="false"
+        android:title="Chats" />
+
+
+</menu>

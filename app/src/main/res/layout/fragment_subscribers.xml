@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_search_black_24dp" />
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@id/image_icon"
+        android:layout_toRightOf="@id/image_icon"
+        android:background="@drawable/button_background"
+        android:drawableRight="@drawable/ic_search_black_24dp"
+        android:focusable="auto"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textColorHint="@color/white"
+        android:hint="Search by name"
+        android:inputType="textCapWords"
+        android:padding="10dp"
+        android:paddingTop="16dp"
+        android:textSize="16sp"
+        android:paddingLeft="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/search_text"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/gray_light"/>
+
+    <TextView
+        android:id="@+id/no_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/search_text"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:paddingTop="5dp"
+        android:textSize="16sp"
+        android:visibility="gone"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_for_users"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_text" />
+
+
+
+</RelativeLayout>

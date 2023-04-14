@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "261942137251",
+    "project_id": "trustinsurance-703f4",
+    "storage_bucket": "trustinsurance-703f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261942137251:android:1229f0dcce2d3a929bca16",
+        "android_client_info": {
+          "package_name": "com.ken.trustinsurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261942137251-m0fcuuatlf96rqfn505iimubemani89g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEHoJ-p9KJdWRwJXrNnB2HhpZKWBhlMXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261942137251-m0fcuuatlf96rqfn505iimubemani89g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

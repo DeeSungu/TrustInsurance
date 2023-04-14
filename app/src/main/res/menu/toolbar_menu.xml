@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/searchicon"
+        android:id="@+id/SearchID"
+        android:title="Search"
+        android:visible="false"
+        android:iconTint="#F0F4F2"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/adminPanel"
+        android:title="Admin"
+        android:iconTint="#F0F4F2"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        />
+
+</menu>
